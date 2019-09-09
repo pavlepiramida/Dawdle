@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dawdle.api:
+    image: ${DOCKER_REGISTRY-}dawdleapi
+    build:
+      context: .
+      dockerfile: Dawdle.API/Dockerfile

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Dawdle.Logic.Test
+namespace Dawdle.Core.Test
 {
     public class Tests
     {

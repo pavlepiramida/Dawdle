@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dawdle.Logic\Dawdle.Logic.csproj" />
+    <ProjectReference Include="..\Dawdle.Core\Dawdle.Core.csproj" />
   </ItemGroup>
 
 </Project>
