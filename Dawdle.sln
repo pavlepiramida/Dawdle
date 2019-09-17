@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawdle.API.Test", "Dawdle.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawdle.Database", "Dawdle.Database\Dawdle.Database.csproj", "{5D424DCC-5E78-4744-BE61-D46CF50323B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawdle.Database.Test", "Dawdle.Database.Test\Dawdle.Database.Test.csproj", "{B906F106-E648-4735-9667-CADA17E888E5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawdle.Service", "Dawdle.Service\Dawdle.Service.csproj", "{ED5F3F8D-49B3-4CE5-BF7E-A85B5EEEB805}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawdle.Service.Test", "Dawdle.Service.Test\Dawdle.Service.Test.csproj", "{51DF6696-6515-4E70-9074-05EF38E19A5D}"
@@ -39,10 +37,6 @@ Global
 		{5D424DCC-5E78-4744-BE61-D46CF50323B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D424DCC-5E78-4744-BE61-D46CF50323B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D424DCC-5E78-4744-BE61-D46CF50323B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B906F106-E648-4735-9667-CADA17E888E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B906F106-E648-4735-9667-CADA17E888E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B906F106-E648-4735-9667-CADA17E888E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B906F106-E648-4735-9667-CADA17E888E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED5F3F8D-49B3-4CE5-BF7E-A85B5EEEB805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED5F3F8D-49B3-4CE5-BF7E-A85B5EEEB805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5F3F8D-49B3-4CE5-BF7E-A85B5EEEB805}.Release|Any CPU.ActiveCfg = Release|Any CPU

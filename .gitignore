@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# LEL no .db
+*.db
+/Dawdle.API/Migrations
