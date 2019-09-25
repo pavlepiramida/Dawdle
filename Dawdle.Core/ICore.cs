@@ -5,6 +5,6 @@ namespace Dawdle.Core
 {
     public interface ICore
     {
-         Task<User> GetUser(string userName);
+        Task<User> GetUser(string userName);
     }
 }

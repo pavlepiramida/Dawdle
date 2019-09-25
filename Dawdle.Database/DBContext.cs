@@ -4,9 +4,9 @@ using System;
 
 namespace Dawdle.Database
 {
-    public class DBContex : DbContext,IDisposable
+    public class DBContex : DbContext, IDisposable
     {
-        public  DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
         public DBContex(DbContextOptions<DBContex> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

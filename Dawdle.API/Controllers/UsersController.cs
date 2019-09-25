@@ -17,13 +17,14 @@ namespace Dawdle.API.Controllers
             _service = service;
         }
 
-        [ProducesResponseType(statusCode:200,type:typeof(UserDTO))]
+        [ProducesResponseType(statusCode: 200, type: typeof(UserDTO))]
         [HttpGet("{userName}")]
-        public async Task<ActionResult<object>> Get(string userName)
+        public async Task<ActionResult<UserDTO>> Get(string userName)
         {
             if (String.IsNullOrWhiteSpace(userName))
-                return BadRequest();
-            return  Ok(await _service.GetUser(userName));
+                return BadRequest("Invalid request.");
+            var user = await _service.GetUser(userName);
+            return Ok(user);
         }
     }
 }

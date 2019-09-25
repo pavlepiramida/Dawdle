@@ -5,6 +5,6 @@ namespace Dawdle.Service
 {
     public interface IService
     {
-       Task<UserDTO> GetUser(string userName);
+        Task<UserDTO> GetUser(string userName);
     }
 }
